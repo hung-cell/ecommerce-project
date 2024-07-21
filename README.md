@@ -1,7 +1,7 @@
 # Ecommerce Project
 
 ## 1. Tính năng quản lý sản phẩm
-- **Thêm/sửa/xóa sản phẩm**: Admin và nhân viên có thể thêm, chỉnh sửa và xóa sản phẩm.
+- **Thêm/sửa/xóa sản phẩm**: Admin và nhân viên có thể thêm, chỉnh sửa và xóa sản phẩm
   - Tên sản phẩm
   - Mô tả sản phẩm
   - Giá bán
