@@ -96,3 +96,8 @@ CREATE TABLE SensitiveData (
     FOREIGN KEY (UserID) REFERENCES Users(UserID) ON DELETE CASCADE
 );
 shdjask
+CREATE TABLE SensitiveData (
+                               DataID INT AUTO_INCREMENT PRIMARY KEY,
+                               UserID INT,
+                               FOREIGN KEY (UserID) REFERENCES Users(UserID) ON DELETE CASCADE
+);
