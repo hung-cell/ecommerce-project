@@ -3,5 +3,5 @@ package com.edu.its.ecommerceproject;
 public class Product {
 
 
-    private String name;
+    private String title;
 }
