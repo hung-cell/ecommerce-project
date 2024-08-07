@@ -95,4 +95,8 @@ CREATE TABLE SensitiveData (
     UserID INT,
     FOREIGN KEY (UserID) REFERENCES Users(UserID) ON DELETE CASCADE
 );
-y
+CREATE TABLE SensitiveData (
+                               DataID INT AUTO_INCREMENT PRIMARY KEY,
+                               UserID INT,
+                               FOREIGN KEY (UserID) REFERENCES Users(UserID) ON DELETE CASCADE
+);
