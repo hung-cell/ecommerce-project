@@ -1,3 +1,4 @@
+create database ecommerce;
 use ecommerce;
 CREATE TABLE Users (
     UserID INT AUTO_INCREMENT PRIMARY KEY,
