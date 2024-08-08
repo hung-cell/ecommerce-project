@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/ecommerce?useSSL=false&serverTimezone=UTC
+    username: root
+    password: Hunghung123
+  jackson:
+    default-property-inclusion: ALWAYS
+  main:
+    allow-circular-references: true
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+    return-instance-for-empty-row: true
+    lazy-loading-enabled: true
+    aggressive-lazy-loading: false
